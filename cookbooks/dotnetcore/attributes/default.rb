@@ -1,0 +1,5 @@
+default['dotnetcore']['repo']['path']='/etc/yum.repos.d/dotnetdev.repo'
+default['dotnetcore']['package']['name']='packages-microsoft-com-prod'
+default['dotnetcore']['package']['name']='dotnet-sdk-2.1.103'
+default['dotnetcore']['repo']['baseurl']='https://packages.microsoft.com/yumrepos/microsoft-rhel7.3-prod'
+default['dotnetcore']['repo']['gpgkeyurl']='https://packages.microsoft.com/keys/microsoft.asc'
